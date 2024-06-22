@@ -1,5 +1,5 @@
 .newscard {
-    width: 300px;
+    width: calc(33.33% - 20px); /* For 3 cards per row */
     display: flex;
     flex-direction: column;
     border: 1px solid #ddd;
@@ -8,6 +8,18 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     background-color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .newscard {
+        width: calc(50% - 20px); /* For 2 cards per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .newscard {
+        width: calc(100% - 20px); /* For 1 card per row */
+    }
 }
 
 .newscard:hover {

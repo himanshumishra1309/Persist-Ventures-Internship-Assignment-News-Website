@@ -12,7 +12,6 @@ import Health from './components/Health/Health.jsx'
 import Science from './components/Science/Science.jsx'
 import Technology from './components/Technology/Technology.jsx'
 import Sports from './components/Sports/Sports.jsx'
-import NavigationButtons from './components/NavigationButtons/NavigationButtons.jsx'
 import World from './components/World/World.jsx'
 import Nation from './components/Nation/Nation.jsx'
 
@@ -34,12 +33,6 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: routes.map((route, index) => ({
       ...route,
-      element: (
-        <>
-          {route.element}
-          <NavigationButtons routes={routes} currentIndex={index} />
-        </>
-      ),
     })),
   },
 ]);
