@@ -2,8 +2,6 @@ import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import { useState } from 'react'
 
-//NEW LEARNING(this question is asked in interviews): rather than using a tag we use link tag because in a tag the whole page is reloaded whereas the link tag prevents the relaoading of the whole page
-
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -164,8 +162,3 @@ const Header = () => {
 };
 
 export default Header;
-
-//usually using tailwind we directly write "className=" and add the css part but in NavLink we used callbacks in order to add the css art that is because we are adding n functionality that is isActive and that helps us to know which content are we actually viewing and changes the color of the text accordingly
-
-
-    

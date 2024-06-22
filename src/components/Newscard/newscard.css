@@ -1,5 +1,5 @@
 .newscard {
-    width: calc(33.33% - 20px); /* For 3 cards per row */
+    width: calc(33.33% - 20px); 
     display: flex;
     flex-direction: column;
     border: 1px solid #ddd;
@@ -12,13 +12,13 @@
 
 @media (max-width: 1024px) {
     .newscard {
-        width: calc(50% - 20px); /* For 2 cards per row */
+        width: calc(50% - 20px); 
     }
 }
 
 @media (max-width: 768px) {
     .newscard {
-        width: calc(100% - 20px); /* For 1 card per row */
+        width: calc(100% - 20px);
     }
 }
 

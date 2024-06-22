@@ -16,7 +16,7 @@ function General() {
             .then(data => {
                 setArticles(data.articles);
                 setIsLoading(false);
-                setCurrentPage(1); // Reset to first page when new articles are fetched
+                setCurrentPage(1); 
             });
     }, []);
 

@@ -8,7 +8,7 @@
   
   .navigation-buttons .prev-button,
   .navigation-buttons .next-button {
-    background-color: #007bff; /* Blue color */
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -21,13 +21,13 @@
   
   .navigation-buttons .prev-button:hover,
   .navigation-buttons .next-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
   }
   
   .navigation-buttons .prev-button:active,
   .navigation-buttons .next-button:active {
-    background-color: #003d80; /* Even darker blue on click */
+    background-color: #003d80;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
