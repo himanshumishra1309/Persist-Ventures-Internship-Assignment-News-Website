@@ -1,5 +1,5 @@
 import React from 'react';
-import './newscard.css'; // Ensure Tailwind is configured properly
+import './newscard.css';
 
 function Newscard({ title, description, src, url }) {
     return (
