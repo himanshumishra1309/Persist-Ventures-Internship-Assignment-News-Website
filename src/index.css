@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .hidden {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
+}
